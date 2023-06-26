@@ -100,25 +100,23 @@ String calcularEstacion(float temp)
 {
   String estacion;
   
-  if(temp > 51)
+  switch(int(temp))
   {
-    estacion = "Inciendio";
-  }
-  else if(temp > 25 && temp < 50) 
-  {
-    estacion = "Verano";
-  } 
-  else if(temp > 19 && temp < 24) 
-  {
-    estacion = "Primavera";
-  } 
-  else if(temp > 9 && temp < 19) 
-  {
-    estacion = "Otoño";
-  } 
-  else 
-  {
-    estacion = "Invierno";
+  	case 51 ... 125:
+      estacion = "Inciendio";
+      break;
+    case 26 ... 50:
+      estacion = "Verano";
+      break;
+    case 20 ... 24:
+      estacion = "Primavera";
+      break;
+    case 10 ... 19:
+      estacion = "Otoño";
+      break;
+    default:
+      estacion = "Invierno";
+      break;
   }
   
   return estacion;
