@@ -171,3 +171,5 @@ void control_ir(int &estadoReceptor)
 *Sensor IR: Permite reciber los comandos del control remoto IR.
 *Control Remoto IR: Permite prender y apagar el sistema de incendio.
 
+## Link al projecto:
+*https://www.tinkercad.com/things/g7ZRgBKu9zq-martin-simone/editel?sharecode=qTldVlSyi4Ljp7keMHPkJ_EijO9guws3PA3rjNQUT6E
