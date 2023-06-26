@@ -1,6 +1,7 @@
 # Parcial SPD 02 (26/6/23)
 ## Alumno
 - Martin Simone
+
 ![image](https://github.com/Martiin542/parcial-02-SPD/assets/116306654/60d7574a-ef6f-4cd5-98ae-3e08108f2576)
 
 
@@ -165,11 +166,12 @@ void control_ir(int &estadoReceptor)
 
 ## Diagrama esquematico:
 ![Parcial 02 - SPD Martin Simone_page-0001](https://github.com/Martiin542/parcial-02-SPD/assets/116306654/dd9975bb-634a-47fa-be5d-e05f36adac4a)
-*Sensor temperatura [TMP36]: Permite conocer la temperatura de una habitacion, ademas de reconocer cuando se produce un incendio.
-*Display 16x2: Permite mostrar la temperatura que lee el sensor TMP36, la estacion del año segun la temperatura registrada y si se produce un incendio.
-*Servo motor: Se acciona cunado se produce un incendio.
-*Sensor IR: Permite reciber los comandos del control remoto IR.
-*Control Remoto IR: Permite prender y apagar el sistema de incendio.
+
+* Sensor temperatura [TMP36]: Permite conocer la temperatura de una habitacion, ademas de reconocer cuando se produce un incendio.
+* Display 16x2: Permite mostrar la temperatura que lee el sensor TMP36, la estacion del año segun la temperatura registrada y si se produce un incendio.
+* Servo motor: Se acciona cunado se produce un incendio.
+* Sensor IR: Permite reciber los comandos del control remoto IR.
+* Control Remoto IR: Permite prender y apagar el sistema de incendio.
 
 ## Link al projecto:
-*https://www.tinkercad.com/things/g7ZRgBKu9zq-martin-simone/editel?sharecode=qTldVlSyi4Ljp7keMHPkJ_EijO9guws3PA3rjNQUT6E
+* https://www.tinkercad.com/things/g7ZRgBKu9zq-martin-simone/editel?sharecode=qTldVlSyi4Ljp7keMHPkJ_EijO9guws3PA3rjNQUT6E
